@@ -29,7 +29,7 @@ setup(
         '{{ cookiecutter.repo_name }}' : ['*.hy'],
     },
     
-    install_requires=["hy" >= '{{ hy_version }}' ],
+    install_requires=['hy >= {{ cookiecutter.hy_version }}' ],
     license= "BSD",
     keywords='{{ cookiecutter.repo_name }}',
     classifiers=[
